@@ -68,15 +68,12 @@ body {
 #main {
     margin:auto;
     margin-top: 5%;
-    width:400px;
-    height:400px;
+    width:380px;
     text-align: center;
 }
 
 #about:hover {
-    border-style: solid;
-    border-width: 2px;
-    border-color:black;
+   width:160px;
 }
 
 #about
@@ -84,6 +81,7 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color:white;
+    text-align: center;
 }
 
 #aboutme {
@@ -95,7 +93,15 @@ body {
     font-size: 16.5px;
 }
 
+#page1 {
+    height:2000px;
 
+}
+
+#page2 {
+        padding-top:100px;
+        height: 2000px;
+}
 
 /* ==========================================================================
    Media Queries

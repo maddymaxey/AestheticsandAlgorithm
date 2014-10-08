@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -13,6 +14,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="icon" type="image/png" href="img/favicon.png">
         <title>Maddy Maddy</title>
+        
 
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,22 +25,45 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <div id="main">
-            <div id="icons">
-            </div>
-            <img src="img/about2.png" width="175px" id="about"> 
-            <div id="aboutme">
+    <div id="main">
+       
+            <div id="page1">
+            <div id="icons"></div><!--icons-->
+             <a data-scroll href="#page2"> <img src="img/about.png" width="150px" id="about"> </a>
+            <br>
+            <img src="img/about2.png" width="150px"> 
+            </div><!--page1-->
+       
 
-                Madison Maxey is a creative technologist focused on apparel and hardware. As a 2013 Thiel Fellow, her work has been featured in publications like The Wall Street Journal and Fast Company. Previous experience includes Tommy Hilfiger, General Assembly and Nylon Magazine. She currently spends her time computing and designing at The CRATED.<br><br>
-                <a href="mailto:maddy@thecrated.com"><img src="img/email.png" width="280px" id="about"> 
-                </a>
-                <a href="http://www.experiments.thecrated.com" target="_blank"><img src="img/experiments.png" width="150px" id="about"> 
-                </a>
-            </div>
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+       
+            <div id="page2">
+            <a data-scroll href="#page1"><img src="img/headshot.gif" width="150px" ></a> 
+            <br>
+            <a href="mailto:maddy@thecrated.com"><img src="img/email.png" width="150px" id="about"> 
+            </a>
+            <a href="http://www.experiments.thecrated.com" target="_blank"><img src="img/experiments.png" width="150px" id="about"> 
+            </a>
+            <div id="aboutme">
+                 Madison Maxey is a creative technologist focused on apparel and hardware. As a 2013 Thiel Fellow, her work has been featured in publications like The Wall Street Journal and Fast Company. Previous experience includes Tommy Hilfiger, General Assembly and Nylon Magazine. She currently spends her time computing and designing at The CRATED.
+            </div> <!--page2-->
+            </div> <!--aboutme-->
+           
+    </div> <!--main-->
+        
+
+           
+        
              <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+              <script src="js/vendor/jquery-1.9.0.min.js"></script>
             <script src="js/jquery.lazylinepainter-1.1.min.js"></script>
             <script src="js/raphael-min.js"></script>
             <script src="js/main.js"></script>
+            <script src="dist/js/bind-polyfill.js"></script>
+            <script src="dist/js/smooth-scroll.js"></script>
+    
+           
     </body>
+     <script>
+                smoothScroll.init();
+              </script>
 </html>

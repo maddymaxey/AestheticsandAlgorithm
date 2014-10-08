@@ -174,18 +174,9 @@ var pathObj = {
     "strokeWidth": 3,
     "strokeColor": "black"
 }).lazylinepainter('paint'); 
-
-      });
-
-      $(document).ajaxStart(function(){
-        $("#aboutme").hide();
-      });
  
+        });
+
  
 
-
- $("#about").click(function(){
-  $("#icons").hide().delay(200).fadeOut(500);
-  $("#aboutme").show().delay(700).fadeIn(500);
-
-});
+ 
